@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	background: url(backimg.jpg)
+  no-repeat center top / cover;
+  height: 100vh;
+} 
+.smoke {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.smoke ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.smoke ul li {
+	list-style: none;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.smoke ul:hover li {
+	animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg) translateY(0px);
+		opacity 1;
+		filter: blur(1px);
+	}
+	100% {
+		transform: rotate(45deg) translateY(-200px);
+		opacity: 0;
+		filter: blur(20px);
+	}
+}
+
+.smoke ul li:nth-child(1) {
+	animation-delay: 0s;
+}
+.smoke ul li:nth-child(2) {
+	animation-delay: .2s;
+}
+.smoke ul li:nth-child(3) {
+	animation-delay: .4s;
+}
+.smoke ul li:nth-child(4) {
+	animation-delay: 0.6s;
+}
+.smoke ul li:nth-child(5) {
+	animation-delay: 0.8s;
+}
+.smoke ul li:nth-child(6) {
+	animation-delay: 1.0s;
+}
+.smoke ul li:nth-child(7) {
+	animation-delay: 1.2s;
+}
+.smoke ul li:nth-child(8) {
+	animation-delay: 1.4s;
+}
+.smoke ul li:nth-child(9) {
+	animation-delay: 1.6s;
+}
+.smoke ul li:nth-child(10) {
+	animation-delay: 1.8s;
+}
+.smoke ul li:nth-child(11) {
+	animation-delay: 2.0s;
+}
+.cont tbody tr td{
+	width: auto;
+	display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    font-family: Monotype Corsiva, sans-serif;
+    font-size: 20px
+}
+.about-cont {
+	width: auto;
+	display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    font-family: Monotype Corsiva, sans-serif;
+    font-size: 20px
+}
