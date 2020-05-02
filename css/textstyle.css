@@ -5,7 +5,7 @@ body {
 	background: url(backimg.jpg)
   no-repeat center top / cover;
   height: 100vh;
-} 
+}
 .smoke {
 	position: absolute;
 	top: 50%;
@@ -71,9 +71,7 @@ body {
 .smoke ul li:nth-child(10) {
 	animation-delay: 1.8s;
 }
-.smoke ul li:nth-child(11) {
-	animation-delay: 2.0s;
-}
+
 .cont tbody tr td{
 	width: auto;
 	display: block;
