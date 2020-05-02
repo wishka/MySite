@@ -1,5 +1,5 @@
 .limg {
-width: 241px;	
+width: 241px;
 height: 263px;
 top: 15%;
 position: absolute; left: 7%;
@@ -7,15 +7,15 @@ box-shadow: 4px 4px 11px 2px black;
 background: url(left.jpg)
 }
 .rimg {
-width: 241px;	
+width: 241px;
 height: 263px;
-top: 15%; 
+top: 15%;
 position: absolute; right: 7%;
 box-shadow: 4px 4px 11px 2px black;
 background: url(right.jpg)
 }
 .dlimg {
-width: 241px;	
+width: 241px;
 height: 335px;
 top: 55%;
 position: absolute; left: 7%;
@@ -23,17 +23,17 @@ box-shadow: 4px 4px 11px 2px black;
 background: url(dleft.jpg)
 }
 .drimg {
-width: 241px;	
+width: 241px;
 height: 336px;
-top: 55%; 
+top: 55%;
 position: absolute; right: 7%;
 box-shadow: 4px 4px 11px 2px black;
 background: url(dright.jpg)
 }
 .dmimg {
-width: 600px;	
-height: 337px;
-top: 55%; 
+width: 600px;
+height: 310px;
+top: 55%;
 position: absolute; left: 33%;
 box-shadow: 4px 4px 11px 2px black;
 background: url(dmiddle.jpg)
